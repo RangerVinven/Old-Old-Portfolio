@@ -22,7 +22,6 @@ export default function ParticlesComponent() {
 		init={particlesInit}
 		options={{
 			fullScreen: {
-				enable: true,
 				zIndex: -1
 			},
 			background: {
