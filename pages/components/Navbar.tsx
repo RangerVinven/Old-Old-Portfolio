@@ -7,7 +7,7 @@ export default function Navbar() {
 				<h3 className="text-xl text-white font-bold ml-1">Daniel McPherson</h3>
 			</div>
 			<div className="flex justify-end w-full">
-				<div className="flex w-1/4 justify-around">
+				<div className="flex w-2/5 justify-evenly">
 					<h3 onClick={() => Router.push("/")} className="text-lg text-white font-semibold hover:cursor-pointer">Home</h3>
 					<h3 onClick={() => Router.push("/projects")} className="text-lg text-white font-semibold hover:cursor-pointer">Projects</h3>
 					<h3 onClick={() => Router.push("/experience")} className="text-lg text-white font-semibold hover:cursor-pointer">Experience</h3>
