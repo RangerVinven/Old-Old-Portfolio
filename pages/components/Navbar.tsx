@@ -2,7 +2,7 @@ import Router from 'next/router';
 
 export default function Navbar() {
 	return (
-		<div className="flex w-full">
+		<div className="flex w-full mt-1">
 			<div className="flex  flex-shrink-0 w-fit">
 				<h3 className="text-xl text-white font-bold ml-1">Daniel McPherson</h3>
 			</div>
