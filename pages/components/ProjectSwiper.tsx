@@ -6,6 +6,9 @@ import { Pagination } from "swiper"
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import { portfolio } from "../../projectInfo";
+import { funFarms } from "../../projectInfo";
+
 import ProjectCard from './ProjectCard';
 
 export default function ProjectSwiper() {
@@ -18,12 +21,12 @@ export default function ProjectSwiper() {
 		pagination={{clickable: true}}
 		scrollbar={{draggable: true}}
 		className="h-full">
-			<SwiperSlide><ProjectCard imageAddress="/images/portfolio.jpg" title="My Portfolio" description="The very website that you're on just now. I made this website to show my skills and to play around with various NPM packages" githubLink="https://github.com/RangerVinven/Portfolio" /></SwiperSlide>
-			<SwiperSlide><ProjectCard imageAddress="/images/funFarms.jpg" title="Fun Farms" description="During my Software Development apprenticeship, we had a section on Website Design & Development. For our final assignment, we were tasked with creating a website in plain HTML and CSS that advertises a farm with various facilities such as a cafe, petting zoo, etc. This is what I made." githubLink="https://github.com/RangerVinven/Fun-Farms" /></SwiperSlide>
-			<SwiperSlide><ProjectCard imageAddress="/images/funFarms.jpg" title="My Portfolio" description="The very website that you're on just now. I made this website to show my skills and to play around with various NPM packages" githubLink="https://github.com/RangerVinven/Portfolio" /></SwiperSlide>
-			<SwiperSlide><ProjectCard imageAddress="/images/funFarms.jpg" title="My Portfolio" description="The very website that you're on just now. I made this website to show my skills and to play around with various NPM packages" githubLink="https://github.com/RangerVinven/Portfolio" /></SwiperSlide>
-			<SwiperSlide><ProjectCard imageAddress="/images/funFarms.jpg" title="My Portfolio" description="The very website that you're on just now. I made this website to show my skills and to play around with various NPM packages" githubLink="https://github.com/RangerVinven/Portfolio" /></SwiperSlide>
-			<SwiperSlide><ProjectCard imageAddress="/images/funFarms.jpg" title="My Portfolio" description="The very website that you're on just now. I made this website to show my skills and to play around with various NPM packages" githubLink="https://github.com/RangerVinven/Portfolio" /></SwiperSlide>
+			<SwiperSlide><ProjectCard imageAddress={portfolio.imageAddress} title={portfolio.title} description={portfolio.description} githubLink={portfolio.githubLink} /></SwiperSlide>
+			<SwiperSlide><ProjectCard imageAddress={funFarms.imageAddress} title={funFarms.title} description={funFarms.description} githubLink={funFarms.githubLink} /></SwiperSlide>
+			<SwiperSlide><ProjectCard imageAddress={funFarms.imageAddress} title={funFarms.title} description={funFarms.description} githubLink={funFarms.githubLink} /></SwiperSlide>
+			<SwiperSlide><ProjectCard imageAddress={funFarms.imageAddress} title={funFarms.title} description={funFarms.description} githubLink={funFarms.githubLink} /></SwiperSlide>
+			<SwiperSlide><ProjectCard imageAddress={funFarms.imageAddress} title={funFarms.title} description={funFarms.description} githubLink={funFarms.githubLink} /></SwiperSlide>
+			<SwiperSlide><ProjectCard imageAddress={funFarms.imageAddress} title={funFarms.title} description={funFarms.description} githubLink={funFarms.githubLink} /></SwiperSlide>
 		</Swiper>
 	)
 }
