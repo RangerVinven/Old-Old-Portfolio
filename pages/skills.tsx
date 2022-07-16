@@ -21,8 +21,8 @@ export default function skills() {
         <div className="flex justify-center h-full w-full mt-24">
             <div className="flex flex-col justify-center items-center bg-white h-fit w-fit px-2 py-1 rounded-lg mr-3.5">
                 <h3 className={categoryClass} onClick={() => setselectedCategory(Categories.Languages)}>Languages</h3>
-                <h3 className={categoryClass} onClick={() => setselectedCategory(Categories.Methodologies)}>Methodologies</h3>
                 <h3 className={categoryClass} onClick={() => setselectedCategory(Categories.Frameworks)}>Frameworks</h3>
+                <h3 className={categoryClass} onClick={() => setselectedCategory(Categories.Methodologies)}>Methodologies</h3>
                 <h3 className={categoryClass} onClick={() => setselectedCategory(Categories.Databases)}>Databases</h3>
                 <h3 className={categoryClass} onClick={() => setselectedCategory(Categories.DevOps)}>DevOps</h3>
             </div>
