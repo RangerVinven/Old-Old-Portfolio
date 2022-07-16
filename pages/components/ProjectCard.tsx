@@ -9,7 +9,7 @@ type Props = {
 export default function ProjectCard(props: Props) {
   return (
     <div className="h-full bg-white rounded-lg shadow-xl">
-    	<a href={props.githubLink}>
+    	<a href={props.githubLink} target="_blank" rel="noopener noreferrer">
 			<img src="/images/portfolioScreenshot.png" alt="Portfolio" className="w-full h-1/3" />
     
 			<div className="ml-1">
