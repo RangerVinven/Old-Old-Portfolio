@@ -14,8 +14,8 @@ const Home: NextPage = () => {
 			
 			<div className="flex justify-center items-center flex-col w-full h-full">
 				<h1 className="text-6xl font-bold text-white mb-2">Hi, I'm Daniel McPherson.</h1>
-				<h1 className="text-5xl font-semibold text-white mb-2">I'm a Software Development student</h1>
-				<a href="https://github.com/RangerVinven" target="_blank" rel="noopener noreferrer"><Image src="/githubIcon.png" alt="Github Logo" height={32} width={32} /></a>
+				<h1 className="text-5xl font-semibold text-white mb-2">I'm a Software Development student.</h1>
+				<a href="https://github.com/RangerVinven" target="_blank" rel="noopener noreferrer"><img src="/githubIcon.png" alt="Github icon" width={32} height={32} /></a>
 			</div>
 		</div>
     </div>
