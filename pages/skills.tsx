@@ -16,8 +16,8 @@ export default function skills() {
         <Navbar />
         <PageTitle title="My Skills" />
 
-        <div className="flex justify-center h-full w-fulbg-red-500 mt-28">
-            <div className="bg-white h-3/6 w-fit px-2 py-1 rounded-lg mr-3.5">
+        <div className="flex justify-center h-full w-full mt-28">
+            <div className="flex flex-col justify-center items-center bg-white h-fit w-fit px-2 py-1 rounded-lg mr-3.5">
                 <h3 className="text-lg font-bold mb-2.5 hover:cursor-pointer" onClick={() => setselectedCategory(Categories.Languages)}>Languages</h3>
                 <h3 className="text-lg font-bold mb-2.5 hover:cursor-pointer" onClick={() => setselectedCategory(Categories.Frameworks)}>Frameworks</h3>
                 <h3 className="text-lg font-bold mb-2.5 hover:cursor-pointer" onClick={() => setselectedCategory(Categories.Methodologies)}>Methodologies</h3>
