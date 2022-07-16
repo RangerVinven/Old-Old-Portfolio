@@ -4,7 +4,7 @@ export default function Navbar() {
 	return (
 		<div className="flex w-full mt-1">
 			<div className="flex  flex-shrink-0 w-fit">
-				<h3 className="text-xl text-white font-bold ml-1">Daniel McPherson</h3>
+				<h3 onClick={() => Router.push("/")} className="text-xl text-white font-bold ml-1 cursor-pointer">Daniel McPherson</h3>
 			</div>
 			<div className="flex justify-end w-full">
 				<div className="flex w-2/5 justify-evenly">
