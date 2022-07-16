@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import Image from 'next/image'
 
 import Navbar from './components/Navbar'
 import ParticlesComponent from './components/ParticlesComponent'
