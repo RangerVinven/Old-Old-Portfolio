@@ -29,7 +29,7 @@ export default function ParticlesComponent() {
 				  value: "#A873FF",
 				},
 			  },
-			  fpsLimit: 120,
+			  fpsLimit: 90,
 			  interactivity: {
 				events: {
 				  onClick: {
