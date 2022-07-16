@@ -4,7 +4,6 @@ import { Pagination } from "swiper"
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import ProjectCard from './ProjectCard';
