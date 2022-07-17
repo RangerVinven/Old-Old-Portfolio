@@ -14,7 +14,7 @@ export default function contact() {
 			<input className="w-64 pl-1 rounded-md mb-2" type="text" name="subject" placeholder="Subject" />
 			<textarea className="w-96 h-80 pl-1 rounded-md mb-2" name="email" placeholder="Message"></textarea>
 
-			<button className="bg-white rounded-md px-3 text-purple font-bold">Send</button>
+			<button className="bg-white rounded-md px-3 text-purple font-bold"><u>Send</u></button>
         </div>
     </div>
   )
