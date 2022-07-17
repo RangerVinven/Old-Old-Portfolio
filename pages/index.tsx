@@ -5,7 +5,7 @@ import ParticlesComponent from './components/ParticlesComponent'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="select-none">
 		<Navbar />
 		
 		<div className="flex min-h-screen flex-col items-center justify-center py-2">
