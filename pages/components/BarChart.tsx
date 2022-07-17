@@ -53,10 +53,10 @@ export default function BarChart(props: Props) {
     }
 
     const frameworkData = {
-        labels: ['React', 'NextJS', 'Angular', 'Express', 'Tailwind CSS'],
+        labels: ['React', 'NextJS', 'Angular', 'Express', 'Tailwind CSS', "Flutter"],
         datasets: [{
             label: 'Frameworks',
-            data: [3, 2.5, 1, 2.75, 3],
+            data: [3, 2.5, 1, 2.75, 3, 2.5],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
